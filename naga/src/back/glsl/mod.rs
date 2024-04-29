@@ -276,7 +276,7 @@ impl Default for Options {
             version: Version::new_gles(310),
             writer_flags: WriterFlags::ADJUST_COORDINATE_SPACE,
             binding_map: BindingMap::default(),
-            zero_initialize_workgroup_memory: true,
+            zero_initialize_workgroup_memory: false,
         }
     }
 }
